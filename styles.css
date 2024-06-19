@@ -194,7 +194,7 @@
     } 
 
     /*
-        Targeting each individual bar
+        Targeting each individual bar (Helps with the animation)
     */
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;

@@ -4,6 +4,6 @@
 
     // Basically calls two functions in the CSS when the three lines are clicked
     menu.addEventListener('click', function() {
-        menu.classList.toggle('is-active');
+        menu.classList.toggle('is-active'); 
         menuLinks.classList.toggle('active');
     });

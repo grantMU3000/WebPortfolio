@@ -15,6 +15,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    margin-bottom: 0px;
 }
 
 .navbar__container {
@@ -219,7 +220,7 @@
     grid-template-columns: 1fr 1fr; /* Essentially a 50/50 split */
     align-items: center;
     justify-self: center;
-    height: 90vh;
+    height: 50vh;
     background-color: white;
     z-index: 1;
     width: 100%;
@@ -254,48 +255,6 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-}
-
-.main__btn {
-    font-size: 2rem;
-    background: blue;  
-    padding: 14px 32px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-/* Since I want there to be a hover effect, this will help with that */
-.main__btn a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.main__btn:after {
-    position: absolute;
-    content: ''; 
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #2a9df4;
-    transition: all 0.5s;
-    border-radius: 4px;
-}
-
-.main__btn:hover {
-    color: #fff;
-}
-
-.main__btn:hover:after {
-    width: 100%;
 }
 
 .main__img--container {
@@ -361,24 +320,117 @@
 }
 
 /* Services Section CSS*/
-.services__container {
+.services {
     background: white;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 0.5vh; 
     width: 100%;
-    margin-left: 550px;
 }
 
 
 .services button {
-    background-color: blue;
-    color: white;
     /* background-image: linear-gradient(to right, #2a9df4 0%, white 50%,
     blue 100%
     ); */
-    background-size: 100%;
-    margin: 0 50px;
-    padding: 14px 32px;
     font-size: 2rem;
+    background: blue;  
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 50px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
 } 
+
+/* Project button */
+
+/* Since I want there to be a hover effect, this section will help with that */
+.proj__button a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.proj__button:after {
+    position: absolute;
+    content: ''; 
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2a9df4;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+.proj__button:hover {
+    color: #fff;
+}
+
+.proj__button:hover:after {
+    width: 100%;
+}
+
+/* Skills button */
+/* Since I want there to be a hover effect, this section will help with that */
+.skill__button a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.skill__button:after {
+    position: absolute;
+    content: ''; 
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2a9df4;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+.skill__button:hover {
+    color: #fff;
+}
+
+.skill__button:hover:after {
+    width: 100%;
+}
+
+/* Course button */
+/* Since I want there to be a hover effect, this section will help with that */
+.relCors__button a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.relCors__button:after {
+    position: absolute;
+    content: ''; 
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2a9df4;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+.relCors__button:hover {
+    color: #fff;
+}
+
+.relCors__button:hover:after {
+    width: 100%;
+}

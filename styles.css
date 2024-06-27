@@ -225,6 +225,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    margin-bottom: 0rem;
 }
 
 .main__content h1 {
@@ -360,10 +361,24 @@
 }
 
 /* Services Section CSS*/
-.services {
+.services__container {
     background: white;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 0.5vh; 
+    width: 100%;
+    margin-left: 550px;
 }
+
+
+.services button {
+    background-color: blue;
+    color: white;
+    /* background-image: linear-gradient(to right, #2a9df4 0%, white 50%,
+    blue 100%
+    ); */
+    background-size: 100%;
+    margin: 0 50px;
+    padding: 14px 32px;
+    font-size: 2rem;
+} 

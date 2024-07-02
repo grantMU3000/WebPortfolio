@@ -263,14 +263,33 @@
     text-align: center;
 }
 
+/* Image Animation */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
 
 #main__img {
     height: 40%;
     width: 40%;
-} 
+
+    animation-name: slideInLeft; /* For selecting the animation you want to use for an element */
+    animation-duration: 1s;
+    animation-timing-function: ;
+    animation-delay: ;
+    animation-iteration-count: ;
+    animation-direction: ;
+    animation-fill-mode: ;
+
+}
 
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .main__container {
         display: grid;
         grid-template-columns: auto;
@@ -440,7 +459,14 @@
 }
 
 /* Mobile responsive buttons */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1000px) {
+
+    .services {
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .services button {
         display: flex;
         flex-direction: column;
@@ -512,7 +538,7 @@
     transition: 0.7s ease-out;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
     .footer__links {
         padding-top: 0.5rem;
         display: grid;

@@ -439,6 +439,21 @@
     width: 100%;
 }
 
+/* Mobile responsive buttons */
+@media screen and (max-width: 820px) {
+    .services button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .services {
+        margin-bottom: 5rem;
+    }
+}
+
 /* Footer CSS */
 .footer__container {
     background-color: #9ACBF6;
@@ -499,7 +514,9 @@
 
 @media screen and (max-width: 820px) {
     .footer__links {
-        padding-top: 2rem;
+        padding-top: 0.5rem;
+        display: grid;
+
     }
 
     .footer__link--wrapper {

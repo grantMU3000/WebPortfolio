@@ -227,8 +227,19 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
 }
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(600px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 
 .main__content h1 {
     font-size: 4rem;
@@ -239,6 +250,9 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+
+    animation-name: slideInRight; /* For selecting the animation you want to use for an element */
+    animation-duration: 1s;
 }
 
 .main__content h2 {
@@ -250,13 +264,30 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+
+    animation-name: slideInRight; /* For selecting the animation you want to use for an element */
+    animation-duration: 1s;
 }
+
+@keyframes slideUp {
+    from {
+        transform: translateY(1200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
 
 .main__content p {
     margin-top: 0.5rem;
     font-size: 2rem;
     font-weight: 700;
     color: blue;
+
+    animation-name: slideUp; /* For selecting the animation you want to use for an element */
+    animation-duration: 1s;
 }
 
 .main__img--container {
@@ -264,9 +295,9 @@
 }
 
 /* Image Animation */
-@keyframes slideInLeft {
+@keyframes imgSlideInLeft {
     from {
-        transform: translateX(-300px);
+        transform: translateX(-600px);
     }
 
     to {
@@ -278,7 +309,7 @@
     height: 40%;
     width: 40%;
 
-    animation-name: slideInLeft; /* For selecting the animation you want to use for an element */
+    animation-name: imgSlideInLeft; /* For selecting the animation you want to use for an element */
     animation-duration: 1s;
     animation-timing-function: ;
     animation-delay: ;
@@ -317,7 +348,37 @@
         margin-top: 1rem;
         font-size: 1.5rem;
     }
+
+    .main__img--container {
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    #main__img {
+        height: 25%;
+        width: 25%;
+    }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .main__content {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+    }
+
+    .main__content h2 {
+        font-size: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+} 
 
 @media screen and (max-width: 480px) {
     .main__content h1 {
@@ -348,7 +409,7 @@
     align-items: center;
     height: 12vh; 
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -466,7 +527,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .services button {
         display: flex;
         flex-direction: column;

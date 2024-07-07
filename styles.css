@@ -651,6 +651,32 @@ About Me Page
     width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .aboutMe {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .leftImgs {
+        display: flex;
+        width: 100%;
+        margin: 0rem 1.5rem;
+    }
+
+    #pfp__img {
+        height: 100%;
+        width: 40%;
+        margin-right: 6rem;
+    }
+
+    #email__img {
+        margin-top: 0rem;
+        height: 100%;
+        width: 40%;
+        margin-left: 6rem;
+    }
+}
+
 /* Middle */
 .Description {
     width: 40%;

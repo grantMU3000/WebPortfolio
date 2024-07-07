@@ -697,3 +697,8 @@ About Me Page
 
     margin-bottom: 2.5rem;
 }
+
+.Description p {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}

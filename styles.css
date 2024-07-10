@@ -628,11 +628,103 @@ About Me Page
 /* Left Side */
 
 .aboutMe {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     width: 100%;
-    height: 80vh;
 }
 
+.title {
+    width: 100%;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.aboutMe h2 {
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 100px;
+}
+
+.intPics {
+    display: flex;
+    width: 30%;
+    margin-right: 100px;
+    height: 200px;
+}
+
+#pfp__img {
+    height: 100%;
+    margin-right: 50px;
+}
+
+.mailSec {
+    height: 100%;
+    justify-content: center;
+}
+
+#email__img {
+    height: 100%;
+}
+
+.intText {
+    text-align: center;
+    width: 58%;
+}
+
+.aboutMe p {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+
+
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .title {
+        margin: 0;
+    }
+
+    .aboutMe h2 {
+        font-size: 
+    }
+
+    .intro {
+        display: grid;
+        margin-top: 1rem;
+    }
+
+    .intPics {
+        margin-bottom: 1rem;
+        height: 150px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    
+
+
+
+}
+/*
 .leftImgs {
     width: 25%;
     height: 100%;
@@ -677,7 +769,7 @@ About Me Page
     }
 }
 
-/* Middle */
+
 .Description {
     width: 40%;
     height: 100%;
@@ -702,3 +794,5 @@ About Me Page
     font-size: 2rem;
     padding-bottom: 1rem;
 }
+
+*/

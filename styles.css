@@ -734,7 +734,7 @@ About Me Page
     margin-left: 100px;
 }
 
-.reasPart1 {
+.reasPar1 {
     display: flex;
     width: 100%;
 }
@@ -743,6 +743,12 @@ About Me Page
     display: flex;
     height: 200px;
     width: 30%;
+    margin-right: 100px;
+}
+
+.par1Text {
+    text-align: center;
+    width: 55%;
 }
 
 #html__img {
@@ -753,6 +759,64 @@ About Me Page
 #css__img {
     height: 100%;
 }
+
+.reasPar2 {
+    display: flex;
+    width: 100%;
+}
+
+.par2Pics {
+    display: flex;
+    height: 200px;
+    width: 30%;
+    margin-right: 100px;
+}
+
+#js__img {
+    height: 100%;
+    margin-right: 70px;
+}
+
+#prog__img {
+    height: 90%;
+}
+
+.par2Text {
+    text-align: center;
+    width: 55%;
+}
+
+.conclusion {
+    display: flex;
+    width: 100%;
+
+    margin-top: 0rem;
+    margin-left: 100px;
+
+    margin-bottom: 2rem;
+}
+
+.conPics {
+    display: flex;
+    height: 200px;
+    width: 30%;
+    margin-right: 100px;
+}
+
+#git__img {
+    height: 100%;
+    margin-right: 80px;
+}
+
+#linked__img {
+    height: 100%;
+}
+
+.conText {
+    text-align: center;
+    width: 55%;
+}
+
 
 
 /* Mobile Responsiveness */

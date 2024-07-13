@@ -655,6 +655,8 @@ About Me Page
     font-size: 2.5rem;
 }
 
+/* Introduction */
+
 .intro {
     display: flex;
     width: 100%;
@@ -665,8 +667,9 @@ About Me Page
 .intPics {
     display: flex;
     width: 30%;
-    margin-right: 100px;
-    height: 200px;
+    margin-right: 47px;
+    margin-left: 50px;
+    height: 150px;
 }
 
 #pfp__img {
@@ -685,7 +688,7 @@ About Me Page
 
 .intText {
     text-align: center;
-    width: 58%;
+    width: 55%;
 }
 
 .aboutMe p {
@@ -693,8 +696,38 @@ About Me Page
     color: blue;
 }
 
+/* Programming Experience */
 
+.progExp {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 100px;
+}
 
+.progPics {
+    display: flex;
+    width: 30%;
+    margin-right: 100px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+#java__img {
+    height: 100%;
+    margin-right: 50px;
+}
+
+#cplus__img {
+    height: 100%;
+}
+
+.progText1 {
+    text-align: center;
+    width: 55%;
+}
+
+/* Why I'm creating the website */
 
 
 /* Mobile Responsiveness */

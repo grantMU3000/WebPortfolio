@@ -728,6 +728,31 @@ About Me Page
 }
 
 /* Why I'm creating the website */
+.reason {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 100px;
+}
+
+.reasPart1 {
+    display: flex;
+    width: 100%;
+}
+
+.par1Pics {
+    display: flex;
+    height: 200px;
+    width: 30%;
+}
+
+#html__img {
+    height: 100%;
+    margin-right: 70px;
+}
+
+#css__img {
+    height: 100%;
+}
 
 
 /* Mobile Responsiveness */

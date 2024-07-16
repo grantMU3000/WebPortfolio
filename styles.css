@@ -113,7 +113,7 @@
         justify-content: space-between;
         height: 80px;
         z-index: 1;
-        max-width: 1300px;
+        max-width: 960px;
         padding: 0;
     }
 
@@ -631,6 +631,7 @@ About Me Page
     display: grid;
     grid-template-columns: auto;
     width: 100%;
+    max-width: 1300px;
 }
 
 .title {
@@ -820,15 +821,30 @@ About Me Page
 
 
 /* Mobile Responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
+
+    .navbar__container {
+        max-width: 550px;
+    }
+
+    .aboutMe {
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .title {
-        margin: 0;
+        margin: 0 0rem;
+        width: 480px;
+        text-align: left;
     }
 
-    .aboutMe h2 {
-        font-size: 
+    .title h1 {
+        font-size: 2rem;
     }
 
+    /*
+    
     .intro {
         display: grid;
         margin-top: 1rem;
@@ -840,7 +856,7 @@ About Me Page
         width: 100%;
         justify-content: center;
     }
-    
+    */
     
 
 

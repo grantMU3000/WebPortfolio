@@ -821,45 +821,72 @@ About Me Page
 
 
 /* Mobile Responsiveness */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 520px) {
 
     .navbar__container {
-        max-width: 550px;
+        max-width: 520px;
     }
 
     .aboutMe {
-        max-width: 550px;
+        max-width: 520px;
         display: flex;
         flex-direction: column;
     }
 
     .title {
-        margin: 0 0rem;
+        margin: 1rem 0rem;
         width: 480px;
-        text-align: left;
+        text-align: center;
     }
 
     .title h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutMe h2 {
         font-size: 2rem;
     }
 
-    /*
-    
     .intro {
         display: grid;
-        margin-top: 1rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
     }
 
-    .intPics {
-        margin-bottom: 1rem;
-        height: 150px;
-        width: 100%;
-        justify-content: center;
+    .intText {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 90%;
     }
-    */
     
+    .progExp {
+        display: grid;
+        margin-top: 0rem;
+        margin-left: 0px;
+    }
 
+    .progPics {
+        margin-top: 0rem;
+    }
 
+    .progText1 {
+        width: 75%;
+    }
+
+    .reason {
+        margin-left: 0px;
+    }
+
+    .reasPar1 {
+        display: grid;
+        width: 100%;
+    }
+
+    .par1Text {
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
 
 }
 /*

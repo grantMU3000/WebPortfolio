@@ -779,7 +779,8 @@ About Me Page
 }
 
 #prog__img {
-    height: 90%;
+    margin-top: 20px;
+    height: 75%;
 }
 
 .par2Text {
@@ -792,8 +793,6 @@ About Me Page
     width: 100%;
 
     margin-top: 0rem;
-    margin-left: 100px;
-
     margin-bottom: 2rem;
 }
 
@@ -815,6 +814,7 @@ About Me Page
 
 .conText {
     text-align: center;
+    margin-top: 0px;
     width: 55%;
 }
 
@@ -835,7 +835,7 @@ About Me Page
 
     .title {
         margin: 1rem 0rem;
-        width: 480px;
+        width: 100%;
         text-align: center;
     }
 
@@ -888,6 +888,31 @@ About Me Page
         margin-left: 25px;
     }
 
+    .reasPar2 {
+        display: grid;
+        width: 100%;
+    }
+
+    #prog__img {
+        margin-top: 20px;
+        height: 80%;
+    }
+
+    .par2Text {
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    .conclusion {
+        display: grid;
+    }
+
+    .conText {
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
 }
 /*
 .leftImgs {

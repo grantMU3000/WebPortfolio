@@ -914,6 +914,125 @@ About Me Page
         margin-left: 25px;
     }
 }
+
+@media screen and (min-width: 521px) and (max-width: 900px) {
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin: 1rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutMe h2 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        display: grid;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+    
+    .intPics {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .intText {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 90%;
+    }
+    
+    .progExp {
+        display: grid;
+        margin-top: 0rem;
+        margin-left: 0px;
+    }
+
+    .progPics {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+
+    .progText1 {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+
+    .reason {
+        margin-left: 0px;
+    }
+
+    .reasPar1 {
+        display: grid;
+        width: 100%;
+    }
+
+    .par1Pics {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .par1Text {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .reasPar2 {
+        display: grid;
+        width: 100%;
+    }
+
+    .par2Pics {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #prog__img {
+        margin-top: 20px;
+        height: 80%;
+    }
+
+    .par2Text {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .conclusion {
+        display: grid;
+    }
+
+    .conPics {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .conText {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+}
+
 /*
 .leftImgs {
     width: 25%;

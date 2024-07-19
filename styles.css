@@ -1033,6 +1033,55 @@ About Me Page
     }
 }
 
+@media screen and (min-width: 901px) and (max-width: 1220px) {
+    .intPics {
+        width: 25%;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        height: 125px;
+        justify-content: center;
+    }
+
+
+    .progPics {
+        width: 25%;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .par1Pics {
+        width: 25%;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .par2Pics {
+        width: 25%;
+        margin-right: 50px;
+        margin-left: 10px;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .conPics {
+        width: 25%;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        height: 150px;
+        justify-content: center;
+    }
+
+
+}
+
 /*
 .leftImgs {
     width: 25%;

@@ -718,6 +718,11 @@ About Me Page
     height: 100%;
     margin-right: 50px;
 }
+ /*
+.javaPic::after {
+    content: attr(data-tooltip);
+}
+*/
 
 #cplus__img {
     height: 100%;
@@ -789,9 +794,8 @@ About Me Page
 }
 
 .conclusion {
-    display: flex;
     width: 100%;
-
+    display: flex;
     margin-top: 0rem;
     margin-bottom: 2rem;
 }
@@ -1082,75 +1086,20 @@ About Me Page
 
 }
 
-/*
-.leftImgs {
-    width: 25%;
-    height: 100%;
-    margin: 6rem 2rem;
-    justify-content: center;
-}
-
-#pfp__img {
-    height: 40%;
+/* Projects section */
+.main {
     width: 100%;
+    max-width: 1300px;
 }
 
-#email__img {
-    margin-top: 5rem;
-    height: 40%;
+.headSec {
+    margin-top: 2rem;
+    height: 300px;
     width: 100%;
+    display: flex;
 }
 
-@media screen and (max-width: 768px) {
-    .aboutMe {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    .leftImgs {
-        display: flex;
-        width: 100%;
-        margin: 0rem 1.5rem;
-    }
-
-    #pfp__img {
-        height: 100%;
-        width: 40%;
-        margin-right: 6rem;
-    }
-
-    #email__img {
-        margin-top: 0rem;
-        height: 100%;
-        width: 40%;
-        margin-left: 6rem;
-    }
-}
-
-
-.Description {
-    width: 40%;
+#proj__img {
     height: 100%;
-    margin: 1rem 2rem;
-    text-align: center;
+    margin-left: 2rem;
 }
-
-.Description h1 {
-    font-size: 4rem;
-    background-color: blue;
-    background-image: linear-gradient(to top, blue 0%, white 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-
-    margin-bottom: 2.5rem;
-}
-
-.Description p {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-}
-
-*/

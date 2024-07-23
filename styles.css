@@ -1099,7 +1099,28 @@ About Me Page
     display: flex;
 }
 
+
+.headImgSec {
+    width: 50%;
+}
+
 #proj__img {
-    height: 100%;
-    margin-left: 2rem;
+    height: 200px;
+    margin-left: 300px;
+}
+
+.headTitleSec {
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+
+.headTitleSec h1 {
+    font-size: 4rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }

@@ -1087,9 +1087,9 @@ About Me Page
 }
 
 /* Projects section */
-.main {
+.mainProj {
     width: 100%;
-    max-width: 1300px;
+    margin-bottom: 1.5rem;
 }
 
 .headSec {

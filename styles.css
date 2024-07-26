@@ -1243,3 +1243,26 @@ About Me Page
         margin: 0px;
     }
 }
+
+.skillTitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+
+}
+
+.skillTitle h1 {
+    font-size: 4rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.skills {
+    margin: 1.5rem 2rem;
+}

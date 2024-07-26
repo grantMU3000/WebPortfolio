@@ -1181,3 +1181,65 @@ About Me Page
     color: blue;
     font-size: 2rem;
 }
+
+@media screen and (min-width: 490px) and (max-width: 900px)  {
+    .mainProj {
+        width: 100%;
+    }
+    .headSec {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .headImgSec {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #proj__img {
+        height: 200px;
+        margin: 0px;
+    }
+
+    .headSec h1 {
+        font-size: 3rem;
+    }
+
+    .firstProj {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstProjPic {
+        width: 75%;
+    }
+
+    .firstProj h1 {
+        color: blue;
+        font-size: 2rem;
+    }
+
+    .firstProjText {
+        width: 90%;
+    }
+    .firstProjText p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1250px) {
+    .headImgSec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #proj__img {
+        margin: 0px;
+    }
+}

@@ -1264,5 +1264,87 @@ About Me Page
 }
 
 .skills {
+    margin: 1.5rem 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.progLangs {
+    border-style: solid;
+    border-width: 7.5px;
+    border-color: blue;
+    border-radius: 15px;
+    display: flex;
+    width: 90%;
+    height: 375px;
+}
+
+.langPicPlusName {
     margin: 1.5rem 2rem;
+    text-align: center;
+}
+
+#code__img {
+    height: 250px;
+}
+
+.skills h1 {
+    font-size: 2.5rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.languages {
+    width: 55%;
+    height: 100%;
+}
+
+.languages h2 {
+    color: blue;
+    text-align: center;
+}
+
+.langRow1 {
+    display: flex;
+    width: 100%;
+}
+
+#javSkill__img {
+    height: 50%;
+}
+
+
+
+#cplusSkill__img {
+    height: 50%;
+}
+
+
+
+#SQLSkill__img {
+    height: 50%;
+}
+
+.langRow2 {
+    display: flex;
+    width: 100%;
+}
+
+#HTMLSkill__img {
+    height: 50%;
+}
+
+#CSSkill__img {
+    height: 50%;
+}
+
+#JSSkill__img {
+    height: 50%;
 }

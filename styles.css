@@ -1257,6 +1257,7 @@ About Me Page
     background-color: blue;
     background-image: linear-gradient(to top, blue 0%, white 100%);
     background-size: 100%;
+
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1295,6 +1296,7 @@ About Me Page
     background-color: blue;
     background-image: linear-gradient(to top, blue 0%, white 100%);
     background-size: 100%;
+
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1362,3 +1364,62 @@ About Me Page
 #JSSkill__img {
     height: 75%;
 }
+
+.progPlats {
+    border-style: solid;
+    border-width: 7.5px;
+    border-color: #2a9df4;
+    border-radius: 15px;
+
+    width: 90%;
+    height: 450px;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.platTitle {
+    text-align: center;
+    margin: 1.5rem 3rem;
+    height: 400px;
+}
+
+#plat__img {
+    height: 350px;
+}
+
+.platforms {
+    width: 55%;
+    height: 75%;
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.platforms h2 {
+    color: blue;
+    
+}
+
+.boots {
+    text-align: center;
+}
+
+#bootstrap__img {
+    height: 75%;
+}
+
+.git {
+    text-align: center;
+}
+#git__img {
+    height: 75%;
+    width: 100%;
+}
+
+.linux {
+    text-align: center;
+}
+
+#linux__img {
+    height: 75%;
+}
+

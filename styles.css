@@ -1278,16 +1278,16 @@ About Me Page
     border-radius: 15px;
     display: flex;
     width: 90%;
-    height: 375px;
+    height: 450px;
 }
 
 .langPicPlusName {
-    margin: 1.5rem 2rem;
+    margin: 1.5rem 3rem;
     text-align: center;
 }
 
 #code__img {
-    height: 250px;
+    height: 325px;
 }
 
 .skills h1 {
@@ -1314,37 +1314,51 @@ About Me Page
 .langRow1 {
     display: flex;
     width: 100%;
+    height: 50%;
+}
+
+.javaSkill {
+    margin-Right: 1rem;
 }
 
 #javSkill__img {
-    height: 50%;
+    height: 75%;
 }
 
 
 
 #cplusSkill__img {
-    height: 50%;
+    height: 75%;
 }
 
 
 
 #SQLSkill__img {
-    height: 50%;
+    height: 75%;
 }
 
 .langRow2 {
     display: flex;
     width: 100%;
+    height: 50%;
+}
+
+.HTML {
+    margin-right: 2.5rem;
 }
 
 #HTMLSkill__img {
-    height: 50%;
+    height: 75%;
+}
+
+.CSS {
+    margin-right: 5.5rem;
 }
 
 #CSSkill__img {
-    height: 50%;
+    height: 75%;
 }
 
 #JSSkill__img {
-    height: 50%;
+    height: 75%;
 }

@@ -1182,7 +1182,7 @@ About Me Page
     font-size: 2rem;
 }
 
-@media screen and (min-width: 490px) and (max-width: 900px)  {
+@media screen and (max-width: 900px)  {
     .mainProj {
         width: 100%;
     }
@@ -1423,3 +1423,37 @@ About Me Page
     height: 75%;
 }
 
+@media screen and (max-width: 530px)  {
+    .skillTitle h1 {
+        font-size: 3rem;
+    }
+
+    .skills h1 {
+        font-size: 2rem;
+        background-image: linear-gradient(to top, blue 20%, white 100%);
+    }
+    
+    .progLangs {
+        flex-direction: column;
+    }
+
+    .langPicPlusName {
+        display: flex;
+        width: 100%;
+        height: 25%;
+        margin-left: 0rem;
+    }
+
+    #code__img {
+        height: 100%;
+        margin-left: 0.5rem;
+    }
+
+    .langRow1 {
+        height: 35%;
+    }
+
+    .langRow2 {
+        height: 35%;
+    }
+}

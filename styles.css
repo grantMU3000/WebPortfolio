@@ -1423,7 +1423,7 @@ About Me Page
     height: 75%;
 }
 
-@media screen and (max-width: 530px)  {
+@media screen and (max-width: 570px)  {
     .skillTitle h1 {
         font-size: 3rem;
     }
@@ -1433,6 +1433,7 @@ About Me Page
         background-image: linear-gradient(to top, blue 20%, white 100%);
     }
     
+    /* Language Section */
     .progLangs {
         flex-direction: column;
     }
@@ -1442,6 +1443,8 @@ About Me Page
         width: 100%;
         height: 25%;
         margin-left: 0rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
     }
 
     #code__img {
@@ -1455,5 +1458,171 @@ About Me Page
 
     .langRow2 {
         height: 35%;
+    }
+
+    .CSS {
+        margin-right: 2.5rem;
+    }
+
+    /* Framework section */
+    .progPlats {
+        flex-direction: column;
+    }
+
+    .platTitle {
+        height: 25%;
+        display: flex;
+    }
+
+    .platTitle h1 {
+        background-image: linear-gradient(to top, blue 65%, white 100%);
+    }
+
+    #plat__img {
+        height: 100%;
+    }
+
+    .platforms {
+        width: 100%;
+        margin-top: 0rem;
+        height: 50%;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 571px) and (max-width: 1110px) {
+    .skills h1 {
+        font-size: 1.5rem;
+    }
+    
+    .langPicPlusName {
+        width: 30%;
+    }
+
+    #code__img {
+        width:100%;
+        height: 67%;
+    }
+
+    .languages {
+        width: 65%;
+    }
+
+    .langRow1 {
+        height: 45%;
+        width: 100%;
+    }
+
+    .langRow2 {
+        height: 45%;
+        width: 100%;
+    }
+
+    .languages img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .CSS {
+        margin-right: 0rem;
+    }
+
+    .platTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 30%;
+    }
+
+    
+
+    #plat__img {
+        height: 45%;
+    }
+
+    .platforms {
+        width: 45%;
+        margin-top: 1.5rem;
+    }
+
+    #bootstrap__img {
+        margin-right: 1.5rem;
+    }
+
+    .platforms img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (min-width: 1111px) and (max-width: 1250px) {
+    .skills h1 {
+        font-size: 1.5rem;
+    }
+    
+    .langPicPlusName {
+        width: 30%;
+    }
+
+    #code__img {
+        width:100%;
+        height: 67%;
+    }
+
+    .languages {
+        width: 65%;
+    }
+
+    .langRow1 {
+        height: 45%;
+        width: 100%;
+    }
+
+    .langRow2 {
+        height: 45%;
+        width: 100%;
+    }
+
+    .languages img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .CSS {
+        margin-right: 2.5rem;
+    }
+
+    .platTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 30%;
+    }
+
+    
+
+    #plat__img {
+        height: 45%;
+    }
+
+    .platforms {
+        width: 45%;
+        margin-top: 1.5rem;
+    }
+
+    #bootstrap__img {
+        margin-right: 2rem;
+    }
+
+    #git__img {
+        margin-right: 2rem;
+    }
+
+    .platforms img {
+        max-width: 100%;
+        max-height: 100%;
     }
 }

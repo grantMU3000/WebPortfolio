@@ -1320,23 +1320,33 @@ About Me Page
 }
 
 .javaSkill {
-    margin-Right: 1rem;
+    height: 75%;
+    width: 30%;
 }
 
 #javSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
 }
 
-
+.cPlus {
+    height: 75%;
+    width: 30%;
+}
 
 #cplusSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
 }
 
-
+.SQL {
+    height: 75%;
+    width: 35%;
+}
 
 #SQLSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
 }
 
 .langRow2 {
@@ -1346,23 +1356,34 @@ About Me Page
 }
 
 .HTML {
-    margin-right: 2.5rem;
+    height: 85%;
+    width: 30%;
 }
 
 #HTMLSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
 }
 
 .CSS {
-    margin-right: 5.5rem;
+    margin-top: 1rem;
+    height: 75%;
+    width: 30%;
 }
 
 #CSSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
+}
+
+.javaScript {
+    height: 85%;
+    width: 30%;
 }
 
 #JSSkill__img {
-    height: 75%;
+    height: 100%;
+    width: 100%;
 }
 
 .progPlats {
@@ -1460,16 +1481,18 @@ About Me Page
         margin-left: 0.5rem;
     }
 
+    .languages {
+        width: 100%;
+    }
+    
     .langRow1 {
+        width: 100%;
         height: 35%;
     }
 
     .langRow2 {
+        width: 100%;
         height: 35%;
-    }
-
-    .CSS {
-        margin-right: 2.5rem;
     }
 
     /* Framework section */
@@ -1518,12 +1541,12 @@ About Me Page
     }
 
     .langRow1 {
-        height: 45%;
+        height: 50%;
         width: 100%;
     }
 
     .langRow2 {
-        height: 45%;
+        height: 50%;
         width: 100%;
     }
 
@@ -1532,9 +1555,6 @@ About Me Page
         max-height: 100%;
     }
 
-    .CSS {
-        margin-right: 0rem;
-    }
 
     .platTitle {
         display: flex;
@@ -1596,10 +1616,6 @@ About Me Page
     .languages img {
         max-width: 100%;
         max-height: 100%;
-    }
-
-    .CSS {
-        margin-right: 5.5rem;
     }
 
     .platTitle {

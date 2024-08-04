@@ -1658,3 +1658,12 @@ About Me Page
         max-height: 90%;
     }
 }
+
+/* Courses Section */
+
+.courseMain {
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+

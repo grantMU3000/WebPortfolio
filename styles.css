@@ -1664,6 +1664,59 @@ About Me Page
 .courseMain {
     margin-top: 3rem;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Course Title Section */
+.courseTitle {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.courseTitle h1 {
+    font-size: 4rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue 0%, white 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.courses {
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.courses h2 {
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.courses p {
+    font-size: 1.5rem;
+    color: blue;
 }
 
 
+/* OOP Text */
+.ooP {
+    text-align: center;
+    border-style: solid;
+    border-width: 7.5px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.ooPTitle {
+    margin: 1rem 0;
+}
+
+.ooPText {
+    margin-bottom: 1rem;
+}

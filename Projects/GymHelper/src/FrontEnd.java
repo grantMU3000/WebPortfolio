@@ -1,4 +1,3 @@
-import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 /**
@@ -74,7 +73,7 @@ public static boolean run(Scanner in) {
         // Runs the Strength segment of the program if the user presses
         // 1
         case 1: strengthMenu();
-break;
+            break;
             /*
              *  Runs the One Rep segment of the program if the user
              *  presses two.

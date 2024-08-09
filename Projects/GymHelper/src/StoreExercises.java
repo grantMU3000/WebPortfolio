@@ -89,10 +89,9 @@ public void displayLast() {
         System.out.printf("Your last saved workout (%s):\n", temp.type);
         // Uses the parent display method to show the last saved workout
         System.out.println(
-                workoutPlan.get(workoutPlan.size() - 1).display(
+                workoutPlan.get(workoutPlan.size() - 1).display(temp.workout) + "\n");
     } // End of if/else
 } // End of displayLast
-temp.workout) + "\n");
 /**
  * This method will print elements of the workoutPlan ArrayList to a file.
  * If the ArrayList has elements, the elements will be printed.

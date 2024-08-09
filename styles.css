@@ -1725,3 +1725,78 @@ About Me Page
     margin-bottom: 1rem;
     width: 95%;
 }
+
+.ooPFooter {
+    width: 95%;
+    display: flex;
+}
+
+.ooProject {
+    width: 50%;
+}
+
+#gymHelp__img {
+    max-width: 90%;
+}
+
+.gymZip__button {
+    font-size: 1.5rem;
+    background: blue;  
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin: 1.5% 0;
+    
+}
+
+.gymZip__button:hover {
+    background: #2a9df4;
+    transition: all 0.5s ease;
+}
+
+.ooPReport {
+    width: 50%;
+}
+
+.gymInst__button {
+    font-size: 1.5rem;
+    background: blue;  
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin-bottom: 1.5%;
+}
+
+.gymInst__button:hover {
+    background: #2a9df4;
+    transition: all 0.5s ease;
+}
+
+.gymRep__button {
+    font-size: 1.5rem;
+    background: blue;  
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin: 2% 0;
+}
+
+.gymRep__button:hover {
+    background: #2a9df4;
+    transition: all 0.5s ease;
+}

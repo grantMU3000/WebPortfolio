@@ -1774,7 +1774,8 @@ About Me Page
     position: relative;
     transition: all 0.35s;
     outline: none;
-    margin-bottom: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .gymInst__button:hover {
@@ -1797,6 +1798,25 @@ About Me Page
 }
 
 .gymRep__button:hover {
+    background: #2a9df4;
+    transition: all 0.5s ease;
+}
+
+.gymCode__button {
+    font-size: 1.5rem;
+    background: blue;  
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin: 2% 0;
+}
+
+.gymCode__button:hover {
     background: #2a9df4;
     transition: all 0.5s ease;
 }

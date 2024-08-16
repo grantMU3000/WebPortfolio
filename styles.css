@@ -1979,6 +1979,7 @@ About Me Page
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .softTitle {
@@ -2008,4 +2009,33 @@ About Me Page
 #hoops__mp4 {
     max-height: 100%;
     max-width: 100%;
+}
+
+.hoopsButtons {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.hoops__button {
+    font-size: 1.5rem;
+    background: blue;  
+    padding: 12px 35px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+}
+
+.hoops__button:hover {
+    background: #2a9df4;
+    transition: all 0.5s ease;
 }

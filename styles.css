@@ -2039,3 +2039,76 @@ About Me Page
     background: #2a9df4;
     transition: all 0.5s ease;
 }
+
+/* Mobilization for course page */
+@media screen and (max-width: 880px) {
+    .ooPFooter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ooProject {
+        width: 70%;
+    }
+
+    .hoopsButtons {
+        flex-direction: column;
+    }
+
+    .hoops__button {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Making buttons smaller */
+@media screen and (max-width: 700px) {
+    .courseTitle h1 {
+        font-size: 2.5rem;
+    }
+
+    .courses h2 {
+        font-size: 1.75rem;
+    }
+
+    .courses p {
+        font-size: 1.25rem;
+    }
+
+    .gymZip__button {
+        font-size: 1.25rem;
+    }
+
+    .gymInst__button {
+        font-size: 1.25rem;
+    }
+
+    .gymRep__button {
+        font-size: 1.25rem;
+    }
+    
+    .gymCode__button {
+        font-size: 1.25rem;
+    }
+
+    .AirlineButtons {
+        flex-direction: column;
+    }
+
+    .air__button {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .DSAButtons {
+        flex-direction: column;
+    }
+
+    .DSA__button {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .hoops__button {
+        font-size: 1.25rem;
+    }
+}

@@ -1918,7 +1918,7 @@ About Me Page
     width: 95%;
 }
 
-/* Systems Footer Section */
+/* DSA Footer Section */
 .DSAProject {
     width: 95%;
     margin-bottom: 2rem;
@@ -1965,4 +1965,47 @@ About Me Page
 .DSA__button:hover {
     background: #2a9df4;
     transition: all 0.5s ease;
+}
+
+/* Intro to SE Section */
+.Intro2SE {
+    text-align: center;
+    border-style: solid;
+    border-width: 7.5px;
+    border-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.softTitle {
+    margin: 1rem 0;
+}
+
+.softText {
+    margin-bottom: 1rem;
+    width: 95%;
+}
+
+/* Hoopsyclopedia footer section */
+.hoops {
+    width: 95%;
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.hoopsVid {
+    width: 65%;
+}
+
+#hoops__mp4 {
+    max-height: 100%;
+    max-width: 100%;
 }

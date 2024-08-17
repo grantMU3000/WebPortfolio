@@ -1286,12 +1286,48 @@ About Me Page
     margin-bottom: 4rem;
 }
 
+/* Project animations */
+@keyframes titleDown {
+    from {
+        transform: translateY(-200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes projLeft {
+    from {
+        transform: translateX(-1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes projRight {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 .projTitle {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
 
     text-align: center;
+
+    animation-name: titleDown;
+    animation-duration: 1s;
+
+
 }
 
 /*
@@ -1332,6 +1368,9 @@ About Me Page
     height: 300px;
     width: 100%;
     margin-bottom: 1rem;
+
+    animation-name: projLeft;
+    animation-duration: 1s;
 }
 
 .projButton {
@@ -1346,6 +1385,13 @@ About Me Page
     border-radius: 4px;
     background: blue;
     color: #fff;
+
+    animation-name: projLeft;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
 }
 
 .projButton p {
@@ -1360,6 +1406,13 @@ About Me Page
 .firstProjText {
     width: 50%;
     text-align: center;
+
+    animation-name: projRight;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 .firstProjText p {

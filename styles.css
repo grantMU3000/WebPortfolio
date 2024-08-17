@@ -645,6 +645,17 @@ About Me Page
     text-align: center;
 }
 
+/* About Me Title Animation */
+@keyframes titleSlide {
+    from {
+        transform: translateX(1000px);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
 .title h1 {
     font-size: 4rem;
     background-color: blue;
@@ -654,6 +665,9 @@ About Me Page
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+
+    animation-name: titleSlide;
+    animation-duration: 1s;
 }
 
 .aboutMe h2 {
@@ -678,9 +692,38 @@ About Me Page
     height: 150px;
 }
 
+/* About Me pictures Animation */
+@keyframes rightIMGSlide {
+    from {
+        transform: translateX(-600px);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* About Me text Animation */
+@keyframes leftTextSlide {
+    from {
+        transform: translateX(1200px);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
 #pfp__img {
     height: 100%;
     margin-right: 50px;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .mailSec {
@@ -690,11 +733,25 @@ About Me Page
 
 #email__img {
     height: 100%;
+    
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .intText {
     text-align: center;
     width: 55%;
+
+    animation-name: leftTextSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 .aboutMe p {
@@ -722,6 +779,13 @@ About Me Page
 #java__img {
     height: 100%;
     margin-right: 50px;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
  /*
 .javaPic::after {
@@ -731,11 +795,25 @@ About Me Page
 
 #cplus__img {
     height: 100%;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .progText1 {
     text-align: center;
     width: 55%;
+
+    animation-name: leftTextSlide;
+    animation-duration: 1s;
+    animation-delay: 0.35s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 /* Why I'm creating the website */
@@ -760,15 +838,36 @@ About Me Page
 .par1Text {
     text-align: center;
     width: 55%;
+
+    animation-name: leftTextSlide;
+    animation-duration: 1s;
+    animation-delay: 0.45s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 #html__img {
     height: 100%;
     margin-right: 70px;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 #css__img {
     height: 100%;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .reasPar2 {
@@ -786,16 +885,37 @@ About Me Page
 #js__img {
     height: 100%;
     margin-right: 70px;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 #prog__img {
     margin-top: 20px;
     height: 75%;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .par2Text {
     text-align: center;
     width: 55%;
+
+    animation-name: leftTextSlide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 .conclusion {
@@ -815,17 +935,39 @@ About Me Page
 #git__img {
     height: 100%;
     margin-right: 80px;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 #linked__img {
     height: 100%;
+
+    animation-name: rightIMGSlide;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-600px);
 }
 
 .conText {
     text-align: center;
     margin-top: 0px;
     width: 55%;
+
+    animation-name: leftTextSlide;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
+
 
 
 

@@ -1283,32 +1283,24 @@ About Me Page
 /* Projects section */
 .mainProj {
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
 }
 
-.headSec {
+.projTitle {
     margin-top: 2rem;
-    height: 300px;
+    margin-bottom: 2rem;
     width: 100%;
-    display: flex;
+
+    text-align: center;
 }
 
-
+/*
 .headImgSec {
     width: 50%;
 }
+*/
 
-#proj__img {
-    height: 200px;
-    margin-left: 300px;
-}
-
-.headTitleSec {
-    margin-left: 3rem;
-    margin-top: 2.5rem;
-}
-
-.headTitleSec h1 {
+.projTitle h1 {
     font-size: 4rem;
     background-color: blue;
     background-image: linear-gradient(to top, blue 0%, white 100%);

@@ -16,6 +16,7 @@
     top: 0;
     z-index: 999;
     margin-bottom: 0px;
+    max-width: 100%;
 }
 
 .navbar__container {
@@ -683,7 +684,7 @@ About Me Page
 }
 
 .mailSec {
-    height: 100%;
+    max-height: 100%;
     justify-content: center;
 }
 
@@ -829,6 +830,46 @@ About Me Page
 
 
 /* Mobile Responsiveness */
+@media screen and (max-width: 460px) {
+    #pfp__img {
+        max-height: 75%;
+    }
+
+    .mailSec {
+        max-height: 75%;
+        justify-content: center;
+    }
+    
+
+    #email__img {
+        height: 100%;
+    }
+
+    #java__img {
+        max-height: 75%;
+    }
+
+    #cplus__img {
+        max-height: 75%;
+    }
+
+    #html__img {
+        max-height: 75%;
+    }
+
+    #css__img {
+        max-height: 75%;
+    }
+
+    #js__img {
+        max-height: 75%;
+    }
+
+    #prog__img {
+        max-height: 50%;
+    }
+}
+
 @media screen and (max-width: 520px) {
 
     .navbar__container {
@@ -862,9 +903,8 @@ About Me Page
     }
 
     .intText {
-        margin-left: 25px;
-        margin-top: 25px;
         width: 90%;
+        text-align: center;
     }
     
     .progExp {
@@ -875,10 +915,18 @@ About Me Page
 
     .progPics {
         margin-top: 0rem;
+        max-width: 75%;
+    }
+
+    .progExp {
+        margin-top: 0rem;
+        margin-left: 0px;
     }
 
     .progText1 {
-        width: 75%;
+        max-width: 90%;
+        text-align: center;
+        margin-left: 5%;
     }
 
     .reason {

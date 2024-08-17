@@ -399,6 +399,10 @@
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
+    #navbar__logo {
+        font-size: 1.5rem;
+    }
 }
 
 /* Services Section CSS*/
@@ -1452,16 +1456,47 @@ About Me Page
     max-width: 100%;
 }
 
-@media screen and (max-width: 570px)  {
+/*
+@media screen and (max-width: 450px) {
+    
+
+    .langPicPlusName h1 {
+        font-size: 20px;
+    }
+
+    .langPicPlusName {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    
+
+    .languages {
+        height: 70%;
+    }
+
+    #code__img {
+        max-width: 75%;
+        max-height: 75%;
+    }
+}
+*/
+
+@media screen and (max-width: 570px) {
     .skillTitle h1 {
         font-size: 3rem;
     }
 
     .skills h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         background-image: linear-gradient(to top, blue 20%, white 100%);
     }
     
+    .skills h2 {
+        font-size: 1rem;
+    }
+
     /* Language Section */
     .progLangs {
         flex-direction: column;
@@ -1503,6 +1538,7 @@ About Me Page
     .platTitle {
         height: 25%;
         display: flex;
+        flex-direction: column;
     }
 
     .platTitle h1 {

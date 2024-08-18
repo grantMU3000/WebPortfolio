@@ -2070,11 +2070,33 @@ About Me Page
 /* Text animation */
 @keyframes courseText {
     from {
-        transform: translateX(1200px);
+        transform: translateX(1400px);
     }
 
     to {
         transform: translateX(0);
+    }
+}
+
+/* Picture Animation */
+@keyframes courseImg {
+    from {
+        transform: translateX(-1200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Video Animation */
+@keyframes hoopVideoAnimation {
+    from {
+        transform: translateY(1200px);
+    }
+
+    to {
+        transform: translateY(0);
     }
 }
 
@@ -2151,6 +2173,13 @@ About Me Page
 .ooPText {
     margin-bottom: 1rem;
     width: 95%;
+
+    animation-name: courseText;
+    animation-duration: 1.25s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 .ooPFooter {
@@ -2164,6 +2193,35 @@ About Me Page
 
 #gymHelp__img {
     max-width: 90%;
+
+    animation-name: courseImg;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
+}
+
+/* Gym Button animations */
+
+@keyframes gymZipAnimation {
+    from {
+        transform: translateX(-1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes gymRightAnimation {
+    from {
+        transform: translateX(1200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .gymZip__button {
@@ -2179,6 +2237,12 @@ About Me Page
     outline: none;
     margin: 1.5% 0;
     
+    animation-name: gymZipAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
 }
 
 .gymZip__button:hover {
@@ -2203,6 +2267,13 @@ About Me Page
     outline: none;
     margin-top: 1%;
     margin-bottom: 2%;
+
+    animation-name: gymRightAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 .gymInst__button:hover {
@@ -2222,6 +2293,13 @@ About Me Page
     transition: all 0.35s;
     outline: none;
     margin: 2% 0;
+
+    animation-name: gymRightAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.85s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 .gymRep__button:hover {
@@ -2241,6 +2319,13 @@ About Me Page
     transition: all 0.35s;
     outline: none;
     margin: 2% 0;
+
+    animation-name: gymRightAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.95s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1200px);
 }
 
 .gymCode__button:hover {
@@ -2277,6 +2362,13 @@ About Me Page
 .systemText {
     margin-bottom: 1rem;
     width: 95%;
+
+    animation-name: courseText;
+    animation-duration: 1.25s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 /* Systems Footer Section */
@@ -2297,6 +2389,13 @@ About Me Page
 #airApp__img {
     max-width: 100%;
     max-height: 100%;
+
+    animation-name: courseImg;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .AirlineButtons {
@@ -2322,6 +2421,13 @@ About Me Page
     margin-left: 5%;
     margin-right: 5%;
     max-width: 100%;
+
+    animation-name: ButtonAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 .air__button:hover {
@@ -2357,6 +2463,13 @@ About Me Page
 .DSAText {
     margin-bottom: 1rem;
     width: 95%;
+
+    animation-name: courseText;
+    animation-duration: 1.25s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 /* DSA Footer Section */
@@ -2377,6 +2490,13 @@ About Me Page
 #binTree__img {
     max-width: 100%;
     max-height: 100%;
+
+    animation-name: courseImg;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .DSAButtons {
@@ -2385,6 +2505,17 @@ About Me Page
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+}
+
+/* DSA button Animation */
+@keyframes ButtonAnimation {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .DSA__button {
@@ -2401,6 +2532,13 @@ About Me Page
     margin-left: 5%;
     margin-right: 5%;
     max-width: 100%;
+
+    animation-name: ButtonAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 .DSA__button:hover {
@@ -2437,6 +2575,13 @@ About Me Page
 .softText {
     margin-bottom: 1rem;
     width: 95%;
+
+    animation-name: courseText;
+    animation-duration: 1.25s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1400px);
 }
 
 /* Hoopsyclopedia footer section */
@@ -2452,12 +2597,18 @@ About Me Page
 
 .hoopsVid {
     width: 65%;
+
+    
 }
 
 #hoops__mp4 {
     max-height: 100%;
     max-width: 100%;
+
+    animation-name: hoopVideoAnimation;
+    animation-duration: 1.5s;
 }
+
 
 .hoopsButtons {
     display: flex;
@@ -2481,6 +2632,13 @@ About Me Page
     margin-left: 5%;
     margin-right: 5%;
     max-width: 100%;
+
+    animation-name: hoopVideoAnimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateY(1400px);
 }
 
 .hoops__button:hover {

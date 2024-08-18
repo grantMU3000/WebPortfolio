@@ -2054,6 +2054,30 @@ About Me Page
 
 /* Courses Section */
 
+/* Animations for the Courses section */
+
+/* Subtitle Animation */
+@keyframes courseSubTitle {
+    from {
+        transform: translateX(-1200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Text animation */
+@keyframes courseText {
+    from {
+        transform: translateX(1200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 .courseMain {
     margin-top: 3rem;
     max-width: 100%;
@@ -2068,6 +2092,9 @@ About Me Page
     max-width: 100%;
     text-align: center;
     margin-bottom: 1.5rem;
+
+    animation-name: titleDown;
+    animation-duration: 1s;
 }
 
 .courseTitle h1 {
@@ -2112,6 +2139,13 @@ About Me Page
 
 .ooPTitle {
     margin: 1rem 0;
+
+    animation-name: courseSubTitle;
+    animation-duration: 1.2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .ooPText {
@@ -2231,6 +2265,13 @@ About Me Page
 
 .systemTitle {
     margin: 1rem 0;
+
+    animation-name: courseSubTitle;
+    animation-duration: 1.2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .systemText {
@@ -2304,6 +2345,13 @@ About Me Page
 
 .DSATitle {
     margin: 1rem 0;
+
+    animation-name: courseSubTitle;
+    animation-duration: 1.2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .DSAText {
@@ -2377,6 +2425,13 @@ About Me Page
 
 .softTitle {
     margin: 1rem 0;
+
+    animation-name: courseSubTitle;
+    animation-duration: 1.2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1200px);
 }
 
 .softText {

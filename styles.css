@@ -1504,6 +1504,16 @@ About Me Page
     }
 }
 
+@keyframes skillsLeft {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+} 
+
 
 .skillTitle h1 {
     font-size: 4rem;
@@ -1594,6 +1604,13 @@ About Me Page
 .javaSkill {
     height: 75%;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #javSkill__img {
@@ -1604,6 +1621,13 @@ About Me Page
 .cPlus {
     height: 75%;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.35s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #cplusSkill__img {
@@ -1614,6 +1638,13 @@ About Me Page
 .SQL {
     height: 75%;
     width: 35%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.45s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #SQLSkill__img {
@@ -1630,6 +1661,13 @@ About Me Page
 .HTML {
     height: 85%;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #HTMLSkill__img {
@@ -1641,6 +1679,13 @@ About Me Page
     margin-top: 1rem;
     height: 75%;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.35s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #CSSkill__img {
@@ -1651,6 +1696,13 @@ About Me Page
 .javaScript {
     height: 85%;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.45s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #JSSkill__img {
@@ -1676,8 +1728,24 @@ About Me Page
     height: 400px;
 }
 
+.platTitle h1 {
+    animation-name: skillsRight;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
+}
+
 #plat__img {
     height: 350px;
+
+    animation-name: skillsRight;
+    animation-duration: 1s;
+    animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
 }
 
 .platforms {
@@ -1699,6 +1767,13 @@ About Me Page
 
 .boots {
     text-align: center;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #bootstrap__img {
@@ -1708,6 +1783,13 @@ About Me Page
 .git {
     text-align: center;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 #gitLab__img {
     height: 75%;
@@ -1717,6 +1799,13 @@ About Me Page
 .linux {
     text-align: center;
     width: 30%;
+
+    animation-name: skillsLeft;
+    animation-duration: 1s;
+    animation-delay: 0.85s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(1000px);
 }
 
 #linux__img {

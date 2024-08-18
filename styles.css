@@ -1483,6 +1483,8 @@ About Me Page
     }
 }
 
+/* Skills Page */
+
 .skillTitle {
     display: flex;
     justify-content: center;
@@ -1490,6 +1492,18 @@ About Me Page
     margin-top: 1.5rem;
 
 }
+
+/* Animations for the skills segments */
+@keyframes skillsRight {
+    from {
+        transform: translateX(-1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 
 .skillTitle h1 {
     font-size: 4rem;
@@ -1501,6 +1515,9 @@ About Me Page
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+
+    animation-name: titleDown;
+    animation-duration: 1s;
 }
 
 .skills {
@@ -1526,8 +1543,24 @@ About Me Page
     text-align: center;
 }
 
+.langPicPlusName h1 {
+    animation-name: skillsRight;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
+}
+
 #code__img {
     height: 325px;
+
+    animation-name: skillsRight;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-1000px);
 }
 
 .skills h1 {
@@ -1676,7 +1709,7 @@ About Me Page
     text-align: center;
     width: 30%;
 }
-#git__img {
+#gitLab__img {
     height: 75%;
     width: 100%;
 }

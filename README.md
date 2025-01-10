@@ -16,7 +16,8 @@ One challenge that I faced with this project was getting the text to mesh well w
 
 ## Directions for Use
 
-1. To run this website, open any web browser and search “<a href="grantrobinson2026.com" target="_blank" rel="noopener noreferrer"> grantrobinson2026.com </a>
+1. To run this website, open any web browser and search “
+[grantrobinson2026.com](grantrobinson2026.com)
 ”. This should take you to the homescreen, which is pictured below.
 
 <img src="images/portfolioPic.png" alt="Homescreen Picture">

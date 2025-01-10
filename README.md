@@ -16,4 +16,4 @@ One challenge that I faced with this project was getting the text to mesh well w
 
 ## Directions for Use
 
-1. To run this website, open any web browser and search “grantrobinson2026.com”. If you aren’t immediately sent to the homescreen, the screenshot below indicates what the link should look like (Using Google).
+1. To run this website, open any web browser and search “grantrobinson2026.com”. This link should take you to the homescreen.

@@ -21,4 +21,5 @@ One challenge that I faced with this project was getting the text to mesh well w
 
 <img src="images/portfolioPic.png" alt="Homescreen Picture">
 
-2. If you typed in the URL and ended up on the search results page, then click on the link that says <b> Grant Robinson's Portfolio </b>.
+2. If you typed in the URL and ended up on the search results page, then click on the link that says <b> Grant Robinson's Portfolio </b>. The picture below shows what the link should look like.
+

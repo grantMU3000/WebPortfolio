@@ -30,3 +30,6 @@ One challenge that I faced with this project was getting the text to mesh well w
 ## Issues
 
 <b> 1. Dimensions/proportions: </b> On a webpage, the buttons and text may overlap with each other as well as the images based on the height/width of the webpage at the time of use. Zooming in and out of the page, and adjusting the height and width of the window can cause this issue. For the best viewing experience, my recommendation is to use the default view when loading up this website.
+<br>
+
+<b> Home Buttons: </b> The buttons on the home page may not respond to clicks on the first try. My recommendation is to hover off of the button for a second and then try to click it.

@@ -23,3 +23,6 @@ One challenge that I faced with this project was getting the text to mesh well w
 2. If you typed in the URL and ended up on the search results page, then click on the link that says <b> Grant Robinson's Portfolio </b>. The picture below shows what the link should look like.
 
 <img src="images/SearchBar.png" alt="Search Result Picture">
+<br>
+
+3. Enjoy the website! Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen.

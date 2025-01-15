@@ -39,14 +39,8 @@ One challenge that I faced with this project was getting the text to mesh well w
 ## Credits
 
 - <a href="https://youtu.be/FazgJVnrVuI?si=KZ6NhcFTK0Y-JomD" target="_blank" rel="noopener noreferrer"> 
-    Brian Design 
-    </a>
-for an HTML website tutorial
+    Brian Design </a> for an HTML website tutorial
 - <a href="https://youtu.be/p1QU3kLFPdg?si=00TxZshK-RGiIpdv" target="_blank" rel="noopener noreferrer"> 
-    SuperSimpleDev 
-    </a>
-for helping me get this website on the internet
+    SuperSimpleDev </a> for helping me get this website on the internet
 - <a href="https://youtu.be/qYoc07Da6kg?si=QFYSvdlVFVlTdkmt" target="_blank" rel="noopener noreferrer"> 
-CWM - Coding With Mike 
-    </a>
-for helping me get my project on Github
+    CWM - Coding With Mike </a> for helping me get my project on Github

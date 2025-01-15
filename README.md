@@ -25,4 +25,4 @@ One challenge that I faced with this project was getting the text to mesh well w
 <img src="images/SearchBar.png" alt="Search Result Picture">
 <br>
 
-3. Enjoy the website! Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen.
+3. Enjoy the website! <b> Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen. </b>

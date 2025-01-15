@@ -16,7 +16,7 @@ One challenge that I faced with this project was getting the text to mesh well w
 
 ## Directions for Use
 
-1. To run this website, open any web browser and search <b>[grantrobinson2026.com](https://grantmu3000.github.io/WebPortfolio/)</b>. This should take you to the homescreen, which is pictured below.
+1. To run this website, open any web browser and search <b>[https://grantmu3000.github.io/WebPortfolio/](https://grantmu3000.github.io/WebPortfolio/)</b>. This should take you to the homescreen, which is pictured below.
 
 <img src="images/portfolioPic.png" alt="Homescreen Picture">
 

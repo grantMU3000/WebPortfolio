@@ -33,3 +33,11 @@ One challenge that I faced with this project was getting the text to mesh well w
 <br>
 
 <b> 2. Home Buttons: </b> The buttons on the home page may not respond to clicks on the first try. My recommendation is to hover off of the button for a second and then try to click it.
+
+<br>
+
+## Credits
+
+- Brian Design for an HTML website tutorial
+- SuperSimpleDev for helping me get this website on the internet
+- CWM - Coding With Mike for helping me get my project on Github

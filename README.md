@@ -26,3 +26,7 @@ One challenge that I faced with this project was getting the text to mesh well w
 <br>
 
 3. Enjoy the website! <b> Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen. </b>
+
+## Issues
+
+<b> 1. Dimensions/proportions: </b> On a webpage, the buttons and text may overlap with each other as well as the images based on the height/width of the webpage at the time of use. Zooming in and out of the page, and adjusting the height and width of the window can cause this issue. For the best viewing experience, my recommendation is to use the default view when loading up this website.

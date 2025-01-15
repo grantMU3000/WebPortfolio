@@ -19,13 +19,9 @@ One challenge that I faced with this project was getting the text to mesh well w
 1. To run this website, open any web browser and search <b>[https://grantmu3000.github.io/WebPortfolio/](https://grantmu3000.github.io/WebPortfolio/)</b>. This should take you to the homescreen, which is pictured below.
 
 <img src="images/portfolioPic.png" alt="Homescreen Picture">
-
-[comment]: <> (2. If you typed in the URL and ended up on the search results page, then click on the link) [comment]: <> (that says <b> Grant Robinson's Portfolio </b>. The picture below shows what the link) [comment]: <> (look like. should)
-
-[comment]: <> (<img src="images/SearchBar.png" alt="Search Result Picture">)
 <br>
 
-3. Enjoy the website! <b> Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen. </b>
+2. Enjoy the website! <b> Reminder: To go to the home screen from any other page, click on Grant Robinson in the top left corner of the screen. </b>
 
 ## Issues
 
